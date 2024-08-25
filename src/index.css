@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* src/index.css or your relevant CSS file */
+.card {
+  background-color: #8bc34a; /* Light green background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  overflow: hidden;
+  width: 180px; /* Set a fixed width for the card */
+  height: 220px; /* Set a height close to width to create a square-like effect */
+  margin: 10px; /* Space between cards */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.card-img {
+  border-radius: 18px; /* Rounded corners for the image */
+  background-color: #f8f8f8; /* Light grey background for the image */
+  height: 140px; /* Height to create a square effect */
+  width: 100%; /* Ensures the image spans the entire width of the card */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-title {
+  font-size: 1.1rem; /* Slightly smaller font size */
+  font-weight: bold;
+  color: #333; /* Darker text color */
+  text-align: center; /* Center align the text */
+  padding: 10px 0; /* Padding around the text */
+}
+
+.loader-wrapper {
+  position: fixed; /* Make the loader cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensures the loader is on top of other content */
+}
+
+.modal-title-center {
+  text-align: center; /* Centers the text horizontally */
+  width: 100%; /* Ensures the title takes full width for centering */
+}
+
+/* Adjust the card column sizes for larger screens */
+@media (min-width: 768px) {
+  .card {
+    margin: 10px; /* Adjust margin if needed */
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 100%; /* Full width for large screens */
+  }
+}
