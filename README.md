@@ -22,6 +22,10 @@ The Star Wars Characters App is a React application that provides a user interfa
 
 ## Available Scripts
 
+To initialize the project and install all the required dependencies and packages, you can run:
+
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -34,31 +38,18 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run build`
+## User Interface
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Homepage - Page 1
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Homepage Page 1](./images/image1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Homepage - Page 2
 
-### `npm run eject`
+![Homepage Page 2](./images/image2.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Homepage - Page 1
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Character Details View](./images/image3.png)
